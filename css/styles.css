@@ -16,10 +16,62 @@
  .address{
     font-style: normal;
  }
- /*=======header=======*/
- .header {
-    display: flex;
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+    margin: 0;
  }
+ ul,
+ li {
+    margin: 0;
+    padding: 0;
+ }
+ img {
+    display: block;
+ }
+ .visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.conteiner {
+   width: 1200px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+  /*=======header=======*/
+ .header {
+    background-color: #757575;
+ }
+ .header .conteiner {
+    display: flex;
+    align-items: center;
+ }
+ .navigetion {
+    display: flex;
+    align-items: center;
+ }
+ .navigetion-item:not(:last-child) {
+    margin-right: 50px;
+ }
+ .navigetion-list {
+    display: flex;
+    align-items: center;
+ }
+ .contacts {
+    display: flex;
+    align-items: center;
+    }
   .navigetion-link {
     font-family: var(--main-font);
     font-weight: 500;
@@ -39,6 +91,8 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    margin-left: 330px;
+    margin-right: 50px;
  }
  .nav-tel-link {
     font-family: var(--main-font);
@@ -64,6 +118,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-right: 90px;
  }
  /*======end header========*/
  .logo-light-theme {
