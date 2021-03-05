@@ -52,8 +52,11 @@
   /*=======header=======*/
  .header {
     background-color: #757575;
+    padding-top: 32px;
+    padding-bottom: 32px;
  }
  .header .conteiner {
+    background-color: yellow;
     display: flex;
     align-items: center;
  }
@@ -91,7 +94,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    margin-left: 330px;
+    margin-left: 280px;
     margin-right: 50px;
  }
  .nav-tel-link {
@@ -130,6 +133,12 @@
  /*======hero============*/
  .model-btn:hover,
  .model-btn:focus {
+    min-width: 200px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
     background-color: var(--accent-color);
     color:  #FFFFFF;
     cursor: pointer;
@@ -142,7 +151,7 @@
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
-     color: #FFFFFF;
+     color:#212121;
  }
  /*========end hero========*/
  .titl {
@@ -155,6 +164,28 @@
      color: #212121;
  }
  /*=========занятия=========*/
+ .quality-list {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+ }
+ .quality-list-item {
+    width: 270px;
+     }
+  .quality-list-item:not(:last-child) {
+    margin-right: 70px; 
+  } 
+  .foto-list {
+     display: flex;
+     align-items: center;
+  }
+  .foto-list-item {
+     width: 370px;
+     margin-right: 30px;
+  }
+  .foto-list-item:not(:last-child) {
+   margin-right: 50px;  
+  }
  .quality {
      font-family: var(--main-font);
      font-weight: bold;
