@@ -54,8 +54,8 @@
   /*=======header=======*/
  .header {
     background-color: #757575;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
  }
  .header .conteiner {
     background-color: yellow;
@@ -243,7 +243,23 @@
  /*=========footer=========*/
  .footer {
     background-color: chartreuse;
+    padding-top: 30px;
+    padding-bottom: 30px;
  }
+ .footer .conteiner {
+    display: flex;
+    flex-direction: column;
+ }
+  .logo-footer {
+    font-family: var(--secondery-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-bottom: 60px;
+     }
  .ftr-adr-link {
      font-family: var(--main-font);
      font-weight: normal;
