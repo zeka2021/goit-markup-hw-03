@@ -136,6 +136,12 @@ button {
    color:  #FFFFFF; 
  }
  /*======hero============*/
+ .model-btn {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+ }
  .model-btn:hover,
  .model-btn:focus {
     min-width: 200px;
@@ -144,6 +150,7 @@ button {
     align-items: center;
     text-align: center;
     margin-bottom: 0px;
+
     background-color: var(--accent-color);
     color:  #FFFFFF;
     cursor: pointer;
@@ -173,6 +180,8 @@ button {
  .quality-list {
     display: flex;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
  }
  .quality-list-item {
     width: 270px;
@@ -187,6 +196,8 @@ button {
   .foto-list-item {
      width: 370px;
      margin-right: 30px;
+     margin-top: 50px;
+     margin-bottom: 100px;
   }
   .foto-list-item:not(:last-child) {
    margin-right: 50px;  
@@ -217,6 +228,8 @@ button {
  .team-list-item {
     width: 270px;
     margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
  }
  .team-list-item:not(:last-child) {
     margin-right: 30px;
@@ -292,6 +305,9 @@ button {
  .resource-list-item {
     width: 128px;
     margin-right: 30px;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px ;
  }
  .resource-list-item:not(:last-child) {
     margin-right: 30px;
@@ -299,11 +315,12 @@ button {
  .projekt-list {
     display: flex;
     flex-wrap: wrap;
+        margin-bottom: 120px;
  }
  .projekt-list-item {
     width: 370px;
     margin-right: 30px;
-    margin-bottom: 30px;
+
  }
  .projekt-list-item:nth-child(3n) {
     margin: 0;
