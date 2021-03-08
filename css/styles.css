@@ -57,12 +57,10 @@ button {
 }
   /*=======header=======*/
  .header {
-    background-color: #757575;
     padding-top: 30px;
     padding-bottom: 30px;
  }
  .header .conteiner {
-    background-color: yellow;
     display: flex;
     align-items: center;
  }
@@ -80,7 +78,9 @@ button {
  .contacts {
     display: flex;
     align-items: center;
-    }
+    margin-left: auto;
+    margin-right: 50px;
+ }
   .navigetion-link {
     font-family: var(--main-font);
     font-weight: 500;
@@ -100,9 +100,8 @@ button {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    margin-left: auto;
     margin-right: 50px;
- }
+   }
  .nav-tel-link {
     font-family: var(--main-font);
     font-weight: 500;
@@ -158,7 +157,6 @@ button {
      letter-spacing: 0.06em;
      text-transform: uppercase;
      color:#212121;
-     background-color: aqua;
      margin-bottom: 40px;
  }
  /*========end hero========*/
@@ -173,7 +171,6 @@ button {
  }
  /*=========занятия=========*/
  .quality-list {
-    background-color: yellow;
     display: flex;
     align-items: center;
  }
@@ -214,7 +211,6 @@ button {
  /*==========end quality========*/
  /*=========team============*/
  .team-list {
-    background-color: blueviolet;
     display: flex;
     align-items: center;
  }
@@ -246,7 +242,6 @@ button {
  /*==========endteam========*/
  /*=========footer=========*/
  .footer {
-    background-color: chartreuse;
     padding-top: 30px;
     padding-bottom: 30px;
  }
@@ -293,7 +288,6 @@ button {
  .resource-list {
     display: flex;
     align-items: center;
-    background-color: lightcoral;
  }
  .resource-list-item {
     width: 128px;
@@ -305,7 +299,6 @@ button {
  .projekt-list {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightpink;
  }
  .projekt-list-item {
     width: 370px;
