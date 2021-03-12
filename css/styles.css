@@ -49,7 +49,7 @@ img {
   overflow: hidden;
 }
 .conteiner {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -60,10 +60,11 @@ button {
 /*=======header=======*/
 
 .header {
-  border-bottom: 1px;
+  border: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
   background: #ffffff;
+  margin-bottom: 94px;
 }
 .header .conteiner {
   display: flex;
@@ -91,7 +92,6 @@ button {
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-right: 50px;
 }
 
 .contacts-item:not(:last-child) {
@@ -235,6 +235,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 .quality-text {
   font-family: var(--main-font);
@@ -265,7 +266,7 @@ button {
   margin-right: 30px;
 }
 .team-section-prof {
-  padding: 20px 0px 20px 24px;
+  padding: 20px 24px;
 }
 .team-name {
   font-family: var(--main-font);
@@ -275,6 +276,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 .team-prof {
   font-family: var(--main-font);
@@ -332,6 +334,7 @@ button {
 }
 /*=========endfooter==========*/
 /*========portfolio==========*/
+
 .resource-list {
   display: flex;
   justify-content: center;
@@ -353,6 +356,12 @@ button {
   letter-spacing: 0.03em;
   color: #212121;
   padding: 6px 22px;
+  background-color: #f5f4fa;
+}
+.model-btn-p:hover,
+.model-btn-p:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 .team-name-projekt {
   font-family: var(--main-font);
@@ -390,4 +399,14 @@ button {
 .projekt-section-conteiner {
   padding: 20px 0 20px 24px;
 }
+.address-element {
+  font-style: normal;
+}
+.address {
+  display: block;
+}
+.address-element:not(:last-child) {
+  padding-bottom: 9px;
+}
+
 /*===========endportfolio======*/
