@@ -344,7 +344,7 @@ button {
 .resource-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 54px;
 }
 .resource-list-item > {
   margin-right: 8px;
@@ -383,7 +383,6 @@ button {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
