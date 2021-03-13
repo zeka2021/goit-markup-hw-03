@@ -60,11 +60,10 @@ button {
 /*=======header=======*/
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
   background: #ffffff;
-  margin-bottom: 94px;
 }
 .header .conteiner {
   display: flex;
@@ -261,6 +260,8 @@ button {
 }
 .team-list-item {
   width: 285px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -334,24 +335,29 @@ button {
 }
 /*=========endfooter==========*/
 /*========portfolio==========*/
-
+.resource {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  padding-top: 34px;
+  padding-bottom: 0;
+}
 .resource-list {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
-.resource-list-item {
+.resource-list-item > {
   margin-right: 8px;
 }
 .resource-list-item:not(:last-child) {
   margin-right: 8px;
 }
 .model-btn-p {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
