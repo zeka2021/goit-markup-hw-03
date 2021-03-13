@@ -54,9 +54,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-button {
+/*.button {
   font-family: inherit;
-}
+}*/
 /*=======header=======*/
 
 .header {
@@ -393,6 +393,7 @@ button {
 }
 .projekt-list-item {
   width: calc(100% / 3 - 30px);
+  border: 1px;
   margin-right: 30px;
 }
 .projekt-list-item:nth-child(3n) {
@@ -413,5 +414,4 @@ button {
 .address-element:not(:last-child) {
   padding-bottom: 9px;
 }
-
 /*===========endportfolio======*/
