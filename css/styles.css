@@ -180,9 +180,10 @@ button {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
   max-width: 696px;
-  margin: auto;
 }
 /*========end hero========*/
 
@@ -260,6 +261,7 @@ button {
 }
 .team-list-item {
   width: 285px;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -336,10 +338,8 @@ button {
 /*=========endfooter==========*/
 /*========portfolio==========*/
 .resource {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  padding-top: 34px;
-  padding-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .resource-list {
   display: flex;
@@ -374,9 +374,9 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 4px;
 }
 .team-prof-projekt {
   font-family: var(--main-font);
@@ -403,7 +403,7 @@ button {
   margin-bottom: 0;
 }
 .projekt-section-conteiner {
-  padding: 20px 0 20px 24px;
+  padding: 20px 24px;
 }
 .address-element {
   font-style: normal;
