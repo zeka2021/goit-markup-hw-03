@@ -6,6 +6,8 @@
 .body {
   font-family: var(--main-font);
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -54,7 +56,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-button {
+.button {
   font-family: inherit;
 }
 /*=======header=======*/
@@ -363,6 +365,8 @@ button {
   color: #212121;
   padding: 6px 22px;
   background-color: #f5f4fa;
+  border: 0;
+  cursor: pointer;
 }
 .model-btn-p:hover,
 .model-btn-p:focus {
@@ -389,11 +393,12 @@ button {
 .projekt-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
-}
+ }
 .projekt-list-item {
   width: calc(100% / 3 - 30px);
+  border: 1px solid #eee;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 .projekt-list-item:nth-child(3n) {
   margin-right: 0;
@@ -413,5 +418,4 @@ button {
 .address-element:not(:last-child) {
   padding-bottom: 9px;
 }
-
 /*===========endportfolio======*/
